@@ -4,7 +4,7 @@ import line from '../../../assets/wavy_line.svg';
 
 const Banner = () => {
 	return (
-		<div className="lg:w-[90%] mx-auto mb-20">
+		<div className="lg:w-[90%] mx-auto mb-20 mt-10">
 			<div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
 				<div className="lg:w-[50%]">
 					<img src={banner} alt="" />
@@ -12,7 +12,7 @@ const Banner = () => {
 				<div className="lg:w-[40%] text-center lg:text-left ">
 					<div className="text-[45px] leading-[125%]">
                         <h1>Marketing.</h1>
-                        <img src={line} alt="" className='ml-12 lg:ml-0' />
+                        <img src={line} alt="" className='w-[200px] mx-auto lg:mx-0' />
 						<h1 className='mb-[30px]'>It won’t cost you an arm and a leg!</h1>
 					</div>
 					<div>

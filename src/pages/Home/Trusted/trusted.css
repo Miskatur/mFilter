@@ -1,7 +1,10 @@
 .swiper-slide {
-    width: 233.4px !important;
-    margin-right: 80px !important;
+    width: 250px !important;
+    /* margin-right: 80px !important; */
+    margin: 0px 50px;
 }
+
+
 
 .swiper-button-prev,
 .swiper-button-next {
