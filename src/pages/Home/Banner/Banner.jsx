@@ -21,8 +21,8 @@ const Banner = () => {
 							compromise on the results!
 						</p>
 						<div className="mt-8">
-							<button className="rounded-[7.28px]  border-[3px] border-[#F48850]  w-[128px] h-[40px]  block mx-auto md:mx-0 btn-shadow ">
-								<span className="block rounded-[7.28px] text-[#F48850] text-lg font-[400]">
+							<button className="rounded-[7.28px]  border-[3px] border-[#F48850] hover:bg-[#F48850]  w-[128px] h-[40px]  block mx-auto md:mx-0 btn-shadow ">
+								<span className="block rounded-[7.28px] text-[#F48850] hover:text-white text-lg font-[400]">
 									Try Now
 								</span>
 							</button>

@@ -6,6 +6,7 @@ import Services from '../Services/Services';
 import Trusted from '../Trusted/Trusted';
 import AboutUs from '../AboutUs/AboutUs';
 import InsightFullSec from '../InsightFullSec/InsightFullSec';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
 	return (

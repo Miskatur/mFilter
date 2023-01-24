@@ -13,16 +13,16 @@ const Navbar = () => {
 	const menuRoutes = (
 		<>
 			<Link>
-				<li>Our Solutions</li>
+				<li className='hover:text-[#F48850]'>Our Solutions</li>
 			</Link>
 			<Link>
-				<li>Resources</li>
+				<li className='hover:text-[#F48850]'>Resources</li>
 			</Link>
 			<Link>
-				<li>About Us</li>
+				<li className='hover:text-[#F48850]'>About Us</li>
 			</Link>
 			<Link>
-				<li>Careers</li>
+				<li className='hover:text-[#F48850]'>Careers</li>
 			</Link>
 		</>
 	);
@@ -36,8 +36,8 @@ const Navbar = () => {
 						<div className="flex items-center gap-5">
 							<div className="space-x-[40px]  flex text-lg">{menuRoutes}</div>
 							<div className="ml-10">
-								<button className="rounded-[7.28px] btn-shadow  border-[3px] border-[#F48850]  w-[128px] h-[40px]  block mx-auto md:mx-0">
-									<span className="block rounded-[7.28px] text-[#F48850] text-lg font-[400]">
+								<button className="rounded-[7.28px] btn-shadow  border-[3px] border-[#F48850] hover:bg-[#F48850]  w-[128px] h-[40px]  block mx-auto md:mx-0">
+									<span className="block rounded-[7.28px] text-[#F48850] hover:text-white text-lg font-[400]">
 										Contact Us
 									</span>
 								</button>
