@@ -1,0 +1,9 @@
+.swiper-slide {
+    width: 233.4px !important;
+    margin-right: 80px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #828282;
+}
