@@ -1,5 +1,5 @@
 import React from 'react';
-import { Autoplay, Grid, Navigation } from 'swiper';
+import { Autoplay, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -28,8 +28,8 @@ const Trusted = () => {
 						delay: 2000,
 						disableOnInteraction: false,
 					}}
-					modules={[Autoplay, Navigation, Grid]}
-					className="mySwiper lg:h-full">
+					modules={[Autoplay, Navigation]}
+					className="mySwiper2 lg:h-[170px]">
 					<SwiperSlide className="">
 						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={flipcart} alt="" className="w-[235px] h-[100px]" />
@@ -75,5 +75,5 @@ const Trusted = () => {
 		</div>
 	);
 };
- 
+
 export default Trusted;
