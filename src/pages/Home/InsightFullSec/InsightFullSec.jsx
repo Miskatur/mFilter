@@ -37,7 +37,7 @@ const InsightFullSec = () => {
 						// 		slidesPerView: 6,
 						// 	},
 						// }}
-						slidesPerView={6}
+						slidesPerView={"auto"}
 						spaceBetween={30}
 						slidesPerGroup={2}
 						loop={true}
