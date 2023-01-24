@@ -32,7 +32,7 @@ const Navbar = () => {
 			<nav className="h-[70px]  relative  w-full  lg:mb-20 flex items-center">
 				<div className="w-[90%] mx-auto">
 					<ul className="items-center hidden space-x-8 lg:flex justify-between">
-						<img src={logo} alt="" className="h-[50px]" />
+						<img src={logo} alt="" className="h-[40px] cursor-pointer" />
 						<div className="flex items-center gap-5">
 							<div className="space-x-[40px]  flex text-lg">{menuRoutes}</div>
 							<div className="ml-10">
@@ -45,7 +45,8 @@ const Navbar = () => {
 						</div>
 					</ul>
 
-					<div className={`flex justify-end lg:hidden`} onClick={handleClick}>
+					<div className={`flex justify-between items-center lg:hidden my-10`} onClick={handleClick}>
+						<img src={logo} alt="" className='cursor-pointer h-[40px]' />
 						{open ? (
 							<AiOutlineClose className="text-2xl text-[#FFD333]" />
 						) : (
@@ -56,8 +57,7 @@ const Navbar = () => {
 			</nav>
 
 			<div>
-				<div
-					className={`${open ? 'menu-active' : 'menu-inactive h-0'} pl-10   mobile-menu `}>
+				<div className={`${open ? 'menu-active' : 'menu-inactive h-0'} pl-10   mobile-menu `}>
 					<div className="flex flex-col space-y-10   font-bold mobile-links text-2xl">
 						{menuRoutes}
 					</div>
