@@ -6,10 +6,10 @@ import integration from '../../../assets/integrationIcon.png'
 
 const AboutUs = () => {
     return (
-        <div className='my-40'>
+        <div className='md:m-40'>
             <h1 className="text-center text-[#1E1E1E] text-[45px] font-light mb-[35px]">Who we are</h1>
 
-            {/* <div className="mt-10 flex flex-col-reverse lg:flex-row justify-center gap-10 items-center"> */}
+            
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-center gap-10 items-center">
 
                 <div>
