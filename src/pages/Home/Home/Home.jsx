@@ -4,6 +4,8 @@ import Banner from '../Banner/Banner';
 import Numbers from '../Numbers/Numbers';
 import Services from '../Services/Services';
 import Trusted from '../Trusted/Trusted';
+import AboutUs from '../AboutUs/AboutUs';
+import InsightFullSec from '../InsightFullSec/InsightFullSec';
 
 const Home = () => {
 	return (
@@ -13,6 +15,8 @@ const Home = () => {
 			<Numbers />
 			<Trusted />
 			<Testimonials />
+			<AboutUs/>
+			<InsightFullSec/>
 		</div>
 	);
 };

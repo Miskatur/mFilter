@@ -95,7 +95,7 @@ const Trusted = () => {
 		</div>
 	);
 };
-
+ 
 export default Trusted;
 
 {
