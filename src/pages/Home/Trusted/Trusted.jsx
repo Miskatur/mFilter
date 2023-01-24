@@ -31,42 +31,42 @@ const Trusted = () => {
 					modules={[Autoplay, Navigation, Grid]}
 					className="mySwiper lg:h-full">
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={flipcart} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={icicBank} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={amazon} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={macdonald} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={pidilite} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={uniliver} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={hdfc_bank} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>
 					<SwiperSlide className="">
-						<div className="p-5 border shadow-xl rounded-2xl mb-4 lg:mb-10">
+						<div className="p-5 border-2 border-[#DDDDDD] rounded-2xl mb-4 ">
 							<img src={pidilite} alt="" className="w-[235px] h-[100px]" />
 						</div>
 					</SwiperSlide>

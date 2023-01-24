@@ -12,7 +12,7 @@ const AboutUs = () => {
             
             <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-center gap-10 items-center">
 
-                <div>
+                <div className='w-[65%] mx-auto'>
                     <p>We are the essential tool in a digital marketer’s handbag.
                         We are on a mission to create trust, uphold integrity,
                         drive growth & value across the digital ecosystem.
