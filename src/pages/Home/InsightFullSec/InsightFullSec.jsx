@@ -13,12 +13,12 @@ import warning from '../../../assets/warning.png'
 
 const InsightFullSec = () => {
     return (
-        <div className='mt-40'>
+        <div className='md:my-20'>
             <h1 className="text-center text-[#1E1E1E] text-[45px] font-light mb-[35px]">
                 Insightful Reads - <span className='text-[#F48850]'>mFilterIt</span>
             </h1>
             <div>
-			<div className="my-10 relative">
+			<div className=" relative">
 				<Swiper
 					slidesPerView={6}
 					spaceBetween={30}

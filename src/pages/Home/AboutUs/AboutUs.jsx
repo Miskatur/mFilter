@@ -6,7 +6,7 @@ import integration from '../../../assets/integrationIcon.png'
 
 const AboutUs = () => {
     return (
-        <div className='md:m-40'>
+        <div className='md:my-20'>
             <h1 className="text-center text-[#1E1E1E] text-[45px] font-light mb-[35px]">Who we are</h1>
 
             
